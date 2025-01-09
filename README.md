@@ -3,7 +3,7 @@
 2. Now that you have your own copy, go into the repo settings (gear icon) and rename your copy to `forking-practice`.
 3. Clone your remote copy into your local IDE.
 4. Make a new directory in this repo named `subdir`
-5. SKIM what your command line says back to you when you try to add/commit/push!
+5. READ what your command line says back to you when you try to add/commit/push!
 6. Since we can't commit an empty directory, `cd` into `subdir` and create a file named `ready.txt`. Go ahead and put some text in that file: it can be whatever you want. But hold on, don't commit yet.
 7. Go back up one level to the top-level directory by doing `cd ..` and make a file named `notready.txt`.
 8. Use `git status` to see that both `notready.txt` and `subdir/` are in red (_really_, `subdir/` in this case means `subdir/notready.txt`).
